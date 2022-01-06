@@ -99,14 +99,15 @@ img {
   text-align: center;
   font-size: 3rem;
 }
-.nombre-sitio span {
-  font-weight: 900;
-}
 @media (min-width: 768px) {
   .nombre-sitio {
     font-size: 5rem;
   }
 }
+.nombre-sitio span {
+  font-weight: 900;
+}
+
 @media (min-width: 768px) {
   .barra {
     display: flex;
@@ -138,6 +139,7 @@ img {
   background-position: center center;
   margin-right: 1rem;
 }
+
 .header a {
   color: var(--blanco);
   font-size: 2rem;
@@ -148,12 +150,11 @@ img {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 @media (min-width: 768px) {
   .navegacion {
     flex-direction: row;
-    gap: 2rem;
   }
 }
 .navegacion a {
